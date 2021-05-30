@@ -1,4 +1,15 @@
+body {
+    text-align: center;
+}
 div {
     padding: 257px 300px 325px 400px;
 }
 
+input {
+    width: 40em;
+    margin: 30px 10px 30px -150px; 
+}
+
+img {
+    margin: 10px 10px 10px -60px;
+}
