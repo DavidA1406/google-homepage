@@ -1,15 +1,87 @@
 body {
-    text-align: center;
-}
-div {
-    padding: 257px 300px 325px 400px;
+    font-family: Arial;
 }
 
-input {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+a {
+    display: inline-block;
+    padding: 8px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+   height: 30em;
+   padding-left: 2.6em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.search {
+   margin-top: -160px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#search {
     width: 40em;
-    margin: 30px 10px 30px -150px; 
+    border-radius: 25px;
+    height: 3em;
+    outline: none;
+    border-color: rgb(170, 164, 164);
+    border: 1px thin;
 }
 
-img {
-    margin: 10px 10px 10px -60px;
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.google-search:hover {
+    border: 1px solid;
+    border-color: rgb(201, 203, 204);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.google-search {
+    margin-right: 3em;
+    border: none;
+    width: 125px;
+    height: 35px;
+    background-color: rgb(247, 243, 243);
+}
+
+.lucky {
+    margin-right: 3em;
+    border: none;
+    width: 135px;
+    height: 35px;
+    background-color: rgb(247, 243, 243);
+}
+
+.lucky:hover {
+    border: 1px solid;
+    border-color: rgb(201, 203, 204);
+    border-radius: 3px;
+    background-color: white;
 }

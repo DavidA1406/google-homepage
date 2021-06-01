@@ -3,12 +3,30 @@
 <head>
     <link href="google.css" rel="stylesheet" type="text/css">
 </head>
+<header>
+    <ul>
+        <li class="left"><a href="about.asp">About</a></li>
+        <li class="left"><a href="store.asp">Store</a></li>
+        <li class="right"><a href="apps.asp">Apps</a></li>
+        <li class="right"><a href="gmail.asp">Gmail</a></li>
+        <li class="right"><a href="images.asp">Images</a></li>
+    </ul>
+    
+</header>
 <body>
-    <div>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
-    <form>
-        <input type="search">  
-    </form>
     </div>
+    <div class="logo">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
+    </div>
+    <form>
+        <div class="search">
+        <input id="search" type="search" results="0">
+        </div>
+        <div id="button">
+        <input class="google-search" type="submit" value="Google Search">
+        <input class="lucky" type="submit" value="I'm Feeling Lucky">
+        </div>
+    </form>
+    
 </body>
 </HTML>
